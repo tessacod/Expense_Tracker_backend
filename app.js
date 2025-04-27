@@ -41,7 +41,7 @@ const expenseRouter = require('./routes/expense');
 
 // Middleware setup
 app.use(cors({
-  origin: ['http://localhost:4200', 'http://localhost:3001'],
+  origin: ['http://expensetrackerpersona.netlify.app', 'http://localhost:3001'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
